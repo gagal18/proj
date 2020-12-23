@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'JetBrains Mono' ,monospace;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color:	rgb(128, 128, 128) !important;
+  border: 2px solid black;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav ul li {
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+}
+.nav-item:hover{
+  background-color:rgb(191, 191, 191) ;
+  cursor: pointer; 
+}
+.body {
+  position: relative;
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 75%;
+  padding-top: 200px;
+}
+.icons {
+  width: 100%;
+  background-color: 	rgb(128, 128, 128);
+  position: fixed;
+  display: block;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icons i {
+  padding: 0 20px;
+  margin-top: 5px;
+}
+ul.navbar-nav.mr-auto{
+  width: 100%;
+  padding: auto;
+}
+li.nav-item{
+  width:25%;
+}
+.container2{
+  color: rgb(204, 204, 204);
+}
+.spans{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width :1000px){
+  nav ul li{
+    border: none;
+  }
+}
+a {
+  color: 	rgb(64, 64, 64);
+  text-decoration: none;
+}
+a:link {
+  color: rgb(64, 64, 64);
+  background-color: transparent;
+}
+a:visited {
+  color: rgb(64, 64, 64);
+  background-color: transparent;
+}
+a:hover {
+  color: rgb(89, 89, 89);
+  background-color: transparent;
+}
+a:active {
+  color: rgb(64, 64, 64);
+  background-color: transparent;
+}
